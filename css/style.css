@@ -1,0 +1,165 @@
+/* |===============================|
+   |         Login page            |
+   |===============================| */
+
+.LogoMain{
+    margin-top: 20vh;
+}
+.LoginForm{
+    margin: 20px;
+}
+.LoginForm input{
+    margin: 8px;
+    width: 25%;
+    border-radius: 8px;
+    padding: 3px;
+}
+.LoginForm input::placeholder{
+    margin-left: 50px;
+ font-weight: 500;
+}
+.LoginButton{
+    border: inherit;
+    border-radius: 10px;
+    background-color:#0b579a ;
+    color:#ffff ;
+    padding: 8px;
+    width: 25%;
+    margin: 15px;
+}
+.LoginButton:hover {
+    background-color: #93bc42;
+    color: #ffff;
+}
+@media only screen and (max-width: 600px) {
+    .LogoMain{
+        margin-top: 25vh;
+    }
+    .LoginForm input{
+        width : 70%;
+    }
+    .LoginButton{
+        width: 70%;
+    }
+  }
+.TextRegister{
+    margin: 5px;
+    font-size: 18px;
+}
+.TextRegister a{
+    color: #0b579a;
+    text-decoration: none;
+}
+
+/* |===============================|
+   |         Register page         |
+   |===============================| */
+
+.RegisterForm{
+    margin: 20px;
+}
+.RegisterForm input{
+    margin: 8px;
+    width: 25%;
+    border-radius: 8px;
+    padding: 3px;
+}
+.RegisterForm input::placeholder{
+margin-left: 50px;
+ font-weight: 500;
+}
+.RegisterButton{
+    border: inherit;
+    border-radius: 10px;
+    background-color:#0b579a ;
+    color:#ffff ;
+    padding: 8px;
+    width: 25%;
+    margin: 15px;
+}
+.RegisterButton:hover {
+    background-color: #93bc42;
+    color: #ffff;
+}
+@media only screen and (max-width: 600px) {
+    .LogoMain{
+        margin-top: 25vh;
+    }
+    .RegisterForm input{
+        width : 70%;
+    }
+    .RegisterButton{
+        width: 70%;
+    }
+  }
+.TextRegister{
+    margin: 5px;
+    font-size: 18px;
+}
+.TextRegister a{
+    color: #0b579a;
+    text-decoration: none;
+}
+
+/* |===============================|
+   |            Menu               |
+   |===============================| */
+.TopMenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0b579a;
+    color: #ffff;
+    width: 100%;
+}
+.LeftMenu{
+    padding-top: 5px;
+    padding-left:10px;  
+}
+.LeftMenu p{
+    font-size: 13px;
+}
+.AccountMenu{
+    display: flex;   
+    justify-content: end;
+    padding-right:15px ;
+    padding-top: 5px;
+}
+.icon{
+    padding-right: 5px;
+}
+/* |===============================|
+   |         Slider                |
+   |===============================| */
+.slide{
+    padding:0 20px 0 20px;
+}
+/* |===============================|
+   |         Navbar                |
+   |===============================| */
+.NavBar{
+background-color: #93bc42;
+color: #ffff;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 0 30px 0 30px;
+height: 40px;
+}
+
+.LeftBar i{
+font-size: 18px;
+}
+
+.CenterBar a{
+color:inherit;
+text-decoration: none;
+font-weight: 600;
+}
+
+.RightBar i{
+    font-size: 18px;
+}
+.NeetContent{
+    padding: 10px;
+}
