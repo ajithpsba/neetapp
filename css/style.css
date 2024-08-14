@@ -33,7 +33,7 @@
 }
 @media only screen and (max-width: 600px) {
     .LogoMain{
-        margin-top: 25vh;
+        margin-top: 11vh;
     }
     .LoginForm input{
         width : 70%;
