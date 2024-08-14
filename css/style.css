@@ -9,16 +9,19 @@
 .LoginForm input{
     margin: 8px;
     width: 25%;
-    border-radius: 8px;
+    border-radius: 15px;
+    border: inherit;
+    background-color:  #E7E7E7;
     padding: 3px;
 }
 .LoginForm input::placeholder{
-    margin-left: 50px;
+    padding-left: 10px;
+    color: #878787;
  font-weight: 500;
 }
 .LoginButton{
     border: inherit;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color:#0b579a ;
     color:#ffff ;
     padding: 8px;
@@ -56,16 +59,19 @@
 .RegisterForm input{
     margin: 8px;
     width: 25%;
-    border-radius: 8px;
+    border-radius: 15px;  
+    border: inherit;  
     padding: 3px;
+    background-color:  #E7E7E7;
 }
 .RegisterForm input::placeholder{
-margin-left: 50px;
- font-weight: 500;
+    color: #878787;
+    padding-left: 10px;
+    font-weight: 500;
 }
 .RegisterButton{
     border: inherit;
-    border-radius: 10px;
+    border-radius: 15px;
     background-color:#0b579a ;
     color:#ffff ;
     padding: 8px;
