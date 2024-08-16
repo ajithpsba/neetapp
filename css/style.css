@@ -132,6 +132,10 @@ margin-left: 50px;
 .acc{
     padding-bottom: 8px;
 }
+.acc a{
+    color: inherit;
+}
+   
 /* |===============================|
    |         Slider                |
    |===============================| */
