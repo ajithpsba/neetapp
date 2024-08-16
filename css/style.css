@@ -2,6 +2,14 @@
    |         Login page            |
    |===============================| */
 
+.LowerImg img{
+    position: absolute;
+    bottom: 0;
+}
+/* |===============================|
+   |         Login page            |
+   |===============================| */
+
 
 .LoginForm{
     margin: 20px;
