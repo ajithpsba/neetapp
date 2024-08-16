@@ -156,17 +156,18 @@ height: 85px;
 width: 100%;
 }
 
-.LeftBar:hover{
+.LeftBar:hover {
     margin-top: -65px;
     border-radius: 50%;
     background: #ffff;
-}
-
-.LeftBar i:hover{
-font-size: 32px;
-color:#0b579a;
-margin:18px;
-}
+    
+  }
+  
+  .LeftBar:hover i {
+    font-size: 32px;
+    color: #0b579a;
+    margin: 18px;
+  }
 .LeftBar i{
     font-size: 32px;
     color:#ffff;
@@ -178,12 +179,13 @@ margin:18px;
         margin-top: -65px;
         border-radius: 50%;
         background: #ffff;
+        color:#0b579a;
     }
     
-    .CenterBar i:hover{
+    .CenterBar:hover i{
     font-size: 32px;
-    color:#0b579a;
     margin:18px;
+    color:#0b579a;
     }
     .CenterBar i{
         font-size: 32px;
@@ -195,10 +197,11 @@ margin:18px;
  .RightBar:hover{
         margin-top: -65px;
         border-radius: 50%;
+        color:#0b579a;
         background: #ffff;
     }
     
-    .RightBar i:hover{
+    .RightBar:hover i{
     font-size: 32px;
     color:#0b579a;
     margin:18px;
