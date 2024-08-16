@@ -6,6 +6,7 @@
     position: absolute;
     bottom: 0;
 }
+
 /* |===============================|
    |         Login page            |
    |===============================| */
@@ -17,19 +18,16 @@
 .LoginForm input{
     margin: 8px;
     width: 25%;
-    border-radius: 15px;
-    border: inherit;
-    background-color:  #E7E7E7;
+    border-radius: 8px;
     padding: 3px;
 }
 .LoginForm input::placeholder{
-    padding-left: 10px;
-    color: #878787;
+    margin-left: 50px;
  font-weight: 500;
 }
 .LoginButton{
     border: inherit;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color:#0b579a ;
     color:#ffff ;
     padding: 8px;
@@ -67,19 +65,16 @@
 .RegisterForm input{
     margin: 8px;
     width: 25%;
-    border-radius: 15px;  
-    border: inherit;  
+    border-radius: 8px;
     padding: 3px;
-    background-color:  #E7E7E7;
 }
 .RegisterForm input::placeholder{
-    color: #878787;
-    padding-left: 10px;
-    font-weight: 500;
+margin-left: 50px;
+ font-weight: 500;
 }
 .RegisterButton{
     border: inherit;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color:#0b579a ;
     color:#ffff ;
     padding: 8px;
@@ -154,9 +149,9 @@ justify-content: space-between;
 align-items: center;
 padding: 0 30px 20px 30px;
 height: 80px;
-width:100%;
-position:absolute;
-   
+width: 100%;
+position: absolute;
+bottom: 0;
 }
 
 .LeftBar i{
