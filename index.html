@@ -5,7 +5,67 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Login | NEET APP</title>
         <link rel="icon" href="./img/logo/favicon.png">
+        <link rel="stylesheet" href="./css/bootstrap.min.css"><!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login | NEET APP</title>
+        <link rel="icon" href="./img/logo/favicon.png">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="./css/style.css">   
+        <link rel="stylesheet" href="./css/aos.css">   
+        <script src="./js/aos.js"></script>   
+    </head>
+<body>
+    <div class="UpperImg"><img src="./img/shape/Top Design.png" alt="" height="200px" width="100%"></div>
+    <div class="LogoMain text-center">
+        <IMAGE src="./img/logo/indomededucare.png"></IMAGE>
+    </div>
+    <div class="LoginPage">
+<form action="#" onsubmit="return login()" method="post" class="LoginForm text-center">
+    <input type="text" placeholder="Username / Number" id="name" name="name" class="LoginName" required ><br>
+    <input  type="password" placeholder="Password" id="password" name="password" class="LoginPassword" required><br>
+    <div class="text-center"> Forgot Password</div>
+    <button type="submit" value="Login" class="LoginButton" data-aos="zoom-in"data-aos-duration="1000" >Login</button>
+    <hr class="line">
+    <p class="TextRegister">Dont have Account?<a href="./Register/register.html"> Register Now! </a></p>
+
+</form>
+    </div>
+    
+
+
+<div class="LowerImg"><img src="./img/shape/Bottom Design.png" width="100%" height="150px" alt=""></div>
+</body>
+
+<script>
+    AOS.init({
+        duration: 650,
+        once: true
+    });
+</script>
+
+   <script>
+    function login()
+    {
+        var name = document.getElementById("name").value;
+        var password = document.getElementById("password").value;
+        if( name == "ajith" && password == "ajith123")
+        {
+            alert("Login Success");
+            window.location.href = "home.html";
+        }
+        else
+        {
+            alert("Invalid username or password");
+        }
+        return false; // prevent form submission
+    }
+</script>
+</html>
         <script src="./js/jquery.min.js"></script>
         <script src="./js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="./css/style.css">   
