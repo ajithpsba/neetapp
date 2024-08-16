@@ -3,119 +3,98 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login | NEET APP</title>
-        <link rel="icon" href="./img/logo/favicon.png">
-        <link rel="stylesheet" href="./css/bootstrap.min.css"><!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Login | NEET APP</title>
+        <title>Home | NEET APP</title>
         <link rel="icon" href="./img/logo/favicon.png">
         <link rel="stylesheet" href="./css/bootstrap.min.css">
         <script src="./js/jquery.min.js"></script>
         <script src="./js/bootstrap.bundle.min.js"></script>
         <link rel="stylesheet" href="./css/style.css">   
-        <link rel="stylesheet" href="./css/aos.css">   
+        <link rel="stylesheet" href="./css/aos.css">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="./js/aos.js"></script>   
     </head>
+    <style>
+      .menubar{
+        padding: 15px 0 15px 0;
+      }
+      .QuizSubject{
+        display: flex;
+        justify-content: space-around;
+      }
+      .utube{
+        border-radius: 20px;
+      }
+    </style>
 <body>
-    <div class="UpperImg"><img src="./img/shape/Top Design.png" alt="" height="200px" width="100%"></div>
-    <div class="LogoMain text-center">
-        <IMAGE src="./img/logo/indomededucare.png"></IMAGE>
-    </div>
-    <div class="LoginPage">
-<form action="#" onsubmit="return login()" method="post" class="LoginForm text-center">
-    <input type="text" placeholder="Username / Number" id="name" name="name" class="LoginName" required ><br>
-    <input  type="password" placeholder="Password" id="password" name="password" class="LoginPassword" required><br>
-    <div class="text-center"> Forgot Password</div>
-    <button type="submit" value="Login" class="LoginButton" data-aos="zoom-in"data-aos-duration="1000" >Login</button>
-    <hr class="line">
-    <p class="TextRegister">Dont have Account?<a href="./Register/register.html"> Register Now! </a></p>
+    <!-- <div class="bgloader">
+<div id="preloader">
+  <div id="loader"></div>
+</div>
+</div> -->
+<!-- menu -->
 
-</form>
+<div class="TopMenu">
+    <div class="LeftMenu">
+        <h6>Welcome Ajith Kumar</h6>
+    </div>
+    <div class="RightMenu">
+        <div class="AccountMenu">
+            <div class="icon">
+                <i class="fa fa-sign-out"> </i>
+            </div>
+        <div class="acc">
+        <a href="login.html"> Logout  </a> 
+        </div> 
+        
+        </div>
+        </div>
     </div>
     
+    <div class="menubar">
+      <a href="#">
+<img src="./img/content/1 Home banner with button.png" width="100%" alt=""></a>
+    </div>
+<!-- menu end -->
+<!-- slider -->
+<!-- slider end -->
+<!-- navbar start -->
+<div class="QuizSubject">
+    <img src="./img/content/3 Chemistry.png" width="30%" alt="">
+    <img src="./img/content/5 Biology.png" width="30%" alt="">
+    <img src="./img/content/4 Physics.png" width="30%" alt="">
+    </div>
+    <div class="row">
+        <div class="col-lg-12 text-center utube">
+        <iframe width="100%" height="260" src="https://www.youtube.com/embed/AN82z4nQHTA?si=CacMQ-e8_CQkTvjR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="padding:20px;margin:0;" ></iframe>
+        </div>
+    </div>
+    <div class="text_content">
+        <p>Welcome to our NEET Quiz App, your ultimate companion for acing the National Eligibility cum Entrance Test (NEET). Our app features a comprehensive range of quizzes, designed to cover all essential topics and simulate the real exam environment, ensuring you’re well-prepared.</p>
+        
+        <p>Receive instant feedback and detailed explanations for each question, allowing you to pinpoint your strengths and focus on areas needing improvement. Track your progress, stay motivated with our rewards system, and challenge yourself with varied difficulty levels.
+        </p>
+        <p>Receive instant feedback and detailed explanations for each question, allowing you to pinpoint your strengths and focus on areas needing improvement. Track your progress, stay motivated with our rewards system, and challenge yourself with varied difficulty levels.
+        </p>
+    </div>
+<div class="NavBar">
+    <div class="LeftBar">
+    <i class="fa fa-home"></i>
+    </div>
 
+    <div class="CenterBar">
+        <a href="#">Start Quiz</a>
+    </div>
 
-<div class="LowerImg"><img src="./img/shape/Bottom Design.png" width="100%" height="150px" alt=""></div>
+    <div class="RightBar">
+    <i class="fa fa-cog"></i>
+    </div> 
+</div>
+<!-- navbar end -->
 </body>
-
 <script>
     AOS.init({
         duration: 650,
         once: true
     });
-</script>
-
-   <script>
-    function login()
-    {
-        var name = document.getElementById("name").value;
-        var password = document.getElementById("password").value;
-        if( name == "ajith" && password == "ajith123")
-        {
-            alert("Login Success");
-            window.location.href = "home.html";
-        }
-        else
-        {
-            alert("Invalid username or password");
-        }
-        return false; // prevent form submission
-    }
-</script>
-</html>
-        <script src="./js/jquery.min.js"></script>
-        <script src="./js/bootstrap.bundle.min.js"></script>
-        <link rel="stylesheet" href="./css/style.css">   
-        <link rel="stylesheet" href="./css/aos.css">   
-        <script src="./js/aos.js"></script>   
-    </head>
-<body>
-    <div class="UpperImg"><img src="./img/shape/Top Design.png" alt="" height="200px" width="100%"></div>
-    <div class="LogoMain text-center">
-        <IMAGE src="./img/logo/indomededucare.png"></IMAGE>
-    </div>
-    <div class="LoginPage">
-<form action="#" onsubmit="return login()" method="post" class="LoginForm text-center">
-    <input type="text" placeholder="Username / Number" id="name" name="name" class="LoginName" required ><br>
-    <input  type="password" placeholder="Password" id="password" name="password" class="LoginPassword" required><br>
-    <div class="text-center"> Forgot Password</div>
-    <button type="submit" value="Login" class="LoginButton" data-aos="zoom-in"data-aos-duration="1000" >Login</button>
-    <hr class="line">
-    <p class="TextRegister">Dont have Account?<a href="./Register/register.html"> Register Now! </a></p>
-
-</form>
-    </div>
-    
-
-
-<div class="LowerImg"><img src="./img/shape/Bottom Design.png" width="100%" height="200px" alt=""></div>
-</body>
-
-<script>
-    AOS.init({
-        duration: 650,
-        once: true
-    });
-</script>
-
-   <script>
-    function login()
-    {
-        var name = document.getElementById("name").value;
-        var password = document.getElementById("password").value;
-        if( name == "ajith" && password == "ajith123")
-        {
-            alert("Login Success");
-            window.location.href = "home.html";
-        }
-        else
-        {
-            alert("Invalid username or password");
-        }
-        return false; // prevent form submission
-    }
 </script>
 </html>
