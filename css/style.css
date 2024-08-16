@@ -151,7 +151,7 @@ color: #ffff;
 display: flex;
 justify-content: space-around;
 align-items: center;
-padding: 0 30px 20px 30px;
+padding: 8px 30px 20px 30px;
 height: 85px;
 width: 100%;
 }
@@ -164,9 +164,9 @@ width: 100%;
 }
 
 .LeftBar i{
-font-size: 30px;
+font-size: 32px;
 color:#0b579a;
-margin:12px;
+margin:15px;
 
 }
 .CenterBar{
@@ -174,9 +174,9 @@ margin:12px;
     background: #ffff;
 }
 .CenterBar i{
-    font-size: 30px;
+    font-size: 32px;
     color:#0b579a;
-    margin:12px;
+    margin:15px;
 }
 .CenterBar:hover{
     margin-top: -40px;
@@ -188,9 +188,9 @@ margin:12px;
     
 }
 .RightBar i{
-    font-size: 30px;
+    font-size: 32px;
 color:#0b579a;
-margin:12px;
+margin:15px;
 }
 .RightBar:hover{
     margin-top: -40px;
