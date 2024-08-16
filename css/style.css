@@ -18,7 +18,7 @@
 .LoginForm input{
     margin: 8px;
     width: 25%;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 3px;
 }
 .LoginForm input::placeholder{
@@ -65,7 +65,7 @@
 .RegisterForm input{
     margin: 8px;
     width: 25%;
-    border-radius: 8px;
+    border-radius: 10px;
     padding: 3px;
 }
 .RegisterForm input::placeholder{
