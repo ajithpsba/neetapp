@@ -131,6 +131,7 @@ margin-left: 50px;
 }
 .acc{
     padding-bottom: 8px;
+   text-decoration:none;
 }
 .acc a{
     color: inherit;
