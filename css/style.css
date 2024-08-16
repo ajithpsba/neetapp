@@ -155,49 +155,59 @@ padding: 8px 30px 20px 30px;
 height: 85px;
 width: 100%;
 }
-.LeftBar{
-    border-radius: 50%;
-    background: #ffff;  
-}
+
 .LeftBar:hover{
-    margin-top: -40px;
+    margin-top: -65px;
+    border-radius: 50%;
+    background: #ffff;
 }
 
-.LeftBar i{
+.LeftBar i:hover{
 font-size: 32px;
 color:#0b579a;
-margin:15px;
+margin:18px;
+}
+.LeftBar i{
+    font-size: 32px;
+    color:#ffff;
+    margin:18px;
+    }
 
-}
-.CenterBar{
-    border-radius: 50%;
-    background: #ffff;
-}
-.CenterBar i{
+
+    .CenterBar:hover{
+        margin-top: -65px;
+        border-radius: 50%;
+        background: #ffff;
+    }
+    
+    .CenterBar i:hover{
     font-size: 32px;
     color:#0b579a;
-    margin:15px;
-}
-.CenterBar:hover{
-    margin-top: -40px;
-}
+    margin:18px;
+    }
+    .CenterBar i{
+        font-size: 32px;
+        color:#ffff;
+        margin:18px;
+        }
 
-.RightBar{
-    border-radius: 50%;
-    background: #ffff;
+
+ .RightBar:hover{
+        margin-top: -65px;
+        border-radius: 50%;
+        background: #ffff;
+    }
     
-}
-.RightBar i{
+    .RightBar i:hover{
     font-size: 32px;
-color:#0b579a;
-margin:15px;
-}
-.RightBar:hover{
-    margin-top: -40px;
-}
-.RightBar i:hover{
-    font-size: 30px;
-}
+    color:#0b579a;
+    margin:18px;
+    }
+    .RightBar i{
+        font-size: 32px;
+        color:#ffff;
+        margin:18px;
+        }
 .NeetContent{
     padding: 10px;
 }
