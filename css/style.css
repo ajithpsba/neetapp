@@ -65,7 +65,7 @@
 .RegisterForm input{
     margin: 8px;
     width: 25%;
-    border-radius: 8px;
+    border-radius: 15px;
     padding: 3px;
 }
 .RegisterForm input::placeholder{
