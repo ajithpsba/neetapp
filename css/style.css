@@ -18,7 +18,7 @@
 .LoginForm input{
     margin: 8px;
     width: 25%;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 3px;
 }
 .LoginForm input::placeholder{
@@ -65,7 +65,7 @@
 .RegisterForm input{
     margin: 8px;
     width: 25%;
-    border-radius: 10px;
+    border-radius: 8px;
     padding: 3px;
 }
 .RegisterForm input::placeholder{
@@ -131,13 +131,11 @@ margin-left: 50px;
 }
 .acc{
     padding-bottom: 8px;
-   text-decoration:none;
 }
 .acc a{
     color: inherit;
     text-decoration: none;
 }
-   
 /* |===============================|
    |         Slider                |
    |===============================| */
@@ -156,8 +154,7 @@ align-items: center;
 padding: 0 30px 20px 30px;
 height: 80px;
 width: 100%;
-position: absolute;
-bottom: 0;
+
 }
 
 .LeftBar i{
@@ -176,10 +173,15 @@ font-weight: 600;
 .NeetContent{
     padding: 10px;
 }
-.acc{
 
-}
 .line{
     margin:10px 35px 10px 35px;
     color: black;
+}
+
+.text_content{
+    margin: 5px;
+    padding:8px;
+    color: black;
+    background-color: #A2FFDF;
 }
