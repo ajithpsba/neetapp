@@ -20,6 +20,8 @@
     width: 25%;
     border-radius: 15px;
     padding: 3px;
+    border: inherit;
+    background-color: #E7E7E7;
 }
 .LoginForm input::placeholder{
     margin-left: 50px;
@@ -65,8 +67,9 @@
 .RegisterForm input{
     margin: 8px;
     width: 25%;
-    border-radius: 8px;
+    border-radius: 15px;
     padding: 3px;
+    background-color: #E7E7E7;
 }
 .RegisterForm input::placeholder{
 margin-left: 50px;
@@ -206,4 +209,8 @@ width: 100%;
     margin-top: 10px;
     font-weight: 700;
     color: #0b579a;
+}
+
+.questions p{
+    padding-top: 8px;
 }
