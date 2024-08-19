@@ -154,45 +154,8 @@ align-items: center;
 padding: 8px 30px 20px 30px;
 height: 85px;
 width: 100%;
+
 }
-
-.LeftBar:hover {
-    margin-top: -65px;
-    border-radius: 50%;
-    background: #ffff;
-    
-  }
-  
-  .LeftBar:hover i {
-    font-size: 32px;
-    color: #0b579a;
-    margin: 18px;
-  }
-.LeftBar i{
-    font-size: 32px;
-    color:#ffff;
-    margin:18px;
-    }
-
-
-    .CenterBar:hover{
-        margin-top: -65px;
-        border-radius: 50%;
-        background: #ffff;
-        color:#0b579a;
-    }
-    
-    .CenterBar:hover i{
-    font-size: 32px;
-    margin:18px;
-    color:#0b579a;
-    }
-    .CenterBar i{
-        font-size: 32px;
-        color:#ffff;
-        margin:18px;
-        }
-
 
  .RightBar:hover{
         margin-top: -65px;
@@ -225,4 +188,22 @@ width: 100%;
     padding:8px;
     color: black;
     background-color: #A2FFDF;
+}
+.quizs{
+    padding: 10px;
+}
+.quizs img{
+    width: 100%;
+    height: auto;
+}
+.attention{
+    padding: 10px;
+}
+.questions{
+    padding: 15px;
+}
+.quizhead{
+    margin-top: 10px;
+    font-weight: 700;
+    color: #0b579a;
 }
