@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Answers | NEET APP</title>
+        <link rel="icon" href="./img/logo/favicon.png">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <script src="./js/jquery.min.js"></script>
+        <script src="./js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="./css/style.css">   
+        <link rel="stylesheet" href="./css/aos.css">  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="./js/aos.js"></script>   
+    </head>
+    <style>
+        .LeftBar{
+    margin-top: -65px;
+    border-radius: 50%;
+    background: #ffff;
+    
+  }
+  
+  .LeftBar i {
+    font-size: 32px;
+    color: #0b579a;
+    margin: 18px;
+  }
+  .CenterBar i{
+    font-size: 32px;
+    margin:18px;
+    color:#ffff;
+    }
+    .RightBar i{
+        font-size: 32px;
+        color:#ffff;
+        margin:18px;
+        }
+    </style>
+    <body>
+        <div class="TopMenu">
+            <div class="LeftMenu">
+                <h6>Welcome Ajith Kumar</h6>
+            </div>
+            <div class="RightMenu">
+                <div class="AccountMenu">
+                    <div class="icon">
+                        <i class="fa fa-sign-out"> </i>
+                    </div>
+                <div class="acc">
+                <a href="index.html"> Logout  </a> 
+                </div> 
+                
+                </div>
+                </div>
+        </div>
+        <h3 class="quizhead text-center">Your Score: 8</h3>
+            <h3 class="quizhead text-center">Quiz Answers</h3>
+        <div class="questions">
+                <div class="question1">
+                    <p>
+                        1. Which of the following is a scalar quantity?<br>
+                        
+                        <input type="radio" id="q1" name="q1" value=""> Speed<br>
+                        
+                    </p>
+                </div>
+            <div class="question2">
+            <p>
+              2. What is the unit of electric current?
+                <br>
+                   
+                   <input type="radio" id="q2" name="q2" value=""> Ampere<br>
+                   
+                    </p>
+            </div>
+            <div class="question1">
+                    <p>
+                    3. Newton's first law of motion is also known as the law of
+                    <br>
+                    <input type="radio" id="q3" name="q3" value=""required> Inertia<br>
+                    
+                    </p>
+            </div>
+             <div class="question2">
+                    <p>
+                    4. What is the SI unit of frequency?
+                    <br>
+                    <input type="radio" id="q4" name="q4" value=""required> Hertz<br>
+                    
+                    </p>
+            </div>
+            <div class="question1">
+                    <p>
+                    5. Which of the following is not a unit of energy?
+                    <br>
+                    
+                    <input type="radio" id="q5" name="q5" value=""> Watt<br>
+                    
+                    </p>
+            </div>
+            <div class="question2">
+                    <p>
+                    6. The acceleration due to gravity on Earth is approximately?
+                    <br>
+                    <input type="radio" id="q6" name="q6" value=""required> 9.8 m/s²<br>
+                    
+                    </p>
+            </div>
+            <div class="question1">
+                    <p>
+                    7. What is the unit of electrical resistance? 
+                    <br>
+                    
+                    <input type="radio" id="q7" name="q7" value=""> Ohm<br>
+                    
+                    </p>
+            </div>
+            <div class="question2">
+                    <p>
+                    8. Which law explains the relationship between the current and potential difference?
+                    <br>
+                    <input type="radio" id="q8" name="q8" value=""required> Ohm’s Law<br>
+                    
+                    </p>
+            </div>
+            <div class="question1">
+                    <p>
+                    9. What type of mirror has a reflecting surface that bulges outward?
+                                                                        <br>
+                    
+                    <input type="radio" id="q9" name="q9" value=""> Convex Mirror<br>
+                    
+            </div>
+            <div class="question2">
+                    <p>
+                    10. What is the speed of light in a vacuum?
+                    <br>
+                    
+                    <input type="radio" id="q10" name="q10" value="" > 3 x 10^8 m/s<br>
+                    
+                    </p>
+            </div>   
+            
+        </div>
+        <div class="text-center">
+            <button class="quizbtn" onclick="home(event)">Home</button>
+            <button class="quizbtn" onclick="nextquiz(event)">Next Quiz</button>
+        </div>
+        <br>
+
+
+
+            <div class="NavBar">
+                <div class="LeftBar">
+                    <a href="quiz.html">
+                <i class="fa fa-pencil-square-o"></i></a>
+                </div>
+            
+                <div class="CenterBar">
+                    <a href="home.html">
+                    <i class="fa fa-home"></i></a>
+                </div>
+            
+                <div class="RightBar">
+                   <a href="#">
+                <i class="fa fa-user-circle-o"></i></a>
+                </div> 
+            </div>   
+    </body>
+    <script>
+    function home(event)
+        {
+            event.preventDefault();
+            window.location.href = "home.html";
+        }
+    function nextquiz(event)
+        {
+            event.preventDefault();
+            window.location.href = "physics.html";
+        }
+    </script>
+</html>
