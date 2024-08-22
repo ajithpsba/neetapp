@@ -76,7 +76,7 @@
     </div>
     
     <div class="menubar">
-      <a href="#">
+      <a href="quiz.html">
 <img src="./img/content/1 Home banner with button.png" width="100%" alt=""></a>
     </div>
 <!-- menu end -->
@@ -84,12 +84,13 @@
 <!-- slider end -->
 <!-- navbar start -->
 <div class="QuizSubject">
-    
-    <img src="./img/content/3 Chemistry.png" width="30%" alt="">
+
+    <img src="./img/content/4 Physics.png" width="30%" alt="" onclick="physic(event)">
+
+    <img src="./img/content/3 Chemistry.png" width="30%" alt="" onclick="chemistry(event)">
    
-    <img src="./img/content/5 Biology.png" width="30%" alt="">
+    <img src="./img/content/5 Biology.png" width="30%" alt="" onclick="biology(event)">
     
-    <img src="./img/content/4 Physics.png" width="30%" alt="">
     </div>
     <div class="row">
         <div class="col-lg-12 text-center utube">
@@ -122,5 +123,19 @@
         duration: 650,
         once: true
     });
+</script>
+<script>
+    function physic(event){
+        event.preventDefault();
+        window.location.href = "physics.html";
+    }
+    function chemistry(event){
+        event.preventDefault();
+        window.location.href = "chemistry.html";
+    }
+    function biology(event){
+        event.preventDefault();
+        window.location.href = "biology.html";
+    }
 </script>
 </html>
