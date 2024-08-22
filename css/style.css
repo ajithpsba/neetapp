@@ -165,23 +165,6 @@ width: 100%;
 
 }
 
- .RightBar:hover{
-        margin-top: -65px;
-        border-radius: 50%;
-        color:#0b579a;
-        background: #ffff;
-    }
-    
-    .RightBar:hover i{
-    font-size: 32px;
-    color:#0b579a;
-    margin:18px;
-    }
-    .RightBar i{
-        font-size: 32px;
-        color:#ffff;
-        margin:18px;
-        }
 
 
 .NeetContent{
@@ -237,4 +220,20 @@ width: 100%;
 .quizbtn:hover{
     background-color: #93bc42;
     color: #ffff;
+}
+/* |===============================|
+   |         Account               |
+   |===============================| */
+
+.acc_detail{
+    margin: 10px;
+}
+.acc_input{
+    padding: 25px;
+}
+.acc_input input{
+    margin: 8px;
+}
+.acc_input textarea{
+    width: 70%;
 }
