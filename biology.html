@@ -57,7 +57,7 @@
 
                         <!-- quiz question -->
                 <h3 class="quizhead text-center">Biology Quiz</h3>         
-                <form>
+                <form onsubmit="quizcomplect(event)">
                     <div class="questions">
                         <div class="question1">
                             <p>
@@ -181,4 +181,11 @@
                 </div> 
             </div>
     </body>
+    <script>
+        function quizcomplect(event) {
+          event.preventDefault();
+          alert("Quiz successfully completed");
+          window.location.href = "answers.html";
+        }
+        </script>
 </html>
