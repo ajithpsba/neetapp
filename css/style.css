@@ -229,11 +229,18 @@ width: 100%;
     margin: 10px;
 }
 .acc_input{
-    padding: 15px;
+    padding: 10px;
 }
 .acc_input input{
-       margin: 12px 8px 12px 8px;
+    margin: 12px 5px 12px 5px;
 }
 .acc_input textarea{
-    width: 70%;
+    width: 60%;
+}
+.address{
+    display: flex;
+    align-items: center;
+}
+.address textarea{
+    margin-left: 5px;
 }
