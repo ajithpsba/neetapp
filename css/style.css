@@ -232,7 +232,7 @@ width: 100%;
     padding: 25px;
 }
 .acc_input input{
-    margin: 8px 0 8px 0;
+    margin: 8px;
 }
 .acc_input textarea{
     width: 70%;
