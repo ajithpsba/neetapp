@@ -162,7 +162,8 @@ align-items: center;
 padding: 8px 30px 20px 30px;
 height: 85px;
 width: 100%;
-
+position: sticky;
+bottom:0;
 }
 
 
